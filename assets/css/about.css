@@ -12,22 +12,25 @@
 
         #about article .card{
             width: 350px;
-            height: 400px;
+            height: 450px;
             align-items: center;
-            gap: 1rem;
         }
 
         #about article .card h3{
             font-size: var(--normal-font-size);
+            text-align: center;
         }
 
         #about article .card iconify-icon{
             font-size: 6rem;
         }
 
+        #about article .card .content{
+            gap: 0.5rem;
+        }
         #about article .card p{
             color: var(--text-color);
-            font-size: var(--small-font-size);
+            font-size: 0.75rem;
         }
 
 @media (max-width: 1250px) {

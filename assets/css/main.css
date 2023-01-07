@@ -52,7 +52,7 @@
         --h3-font-size: 1.5rem;
         --bigger-font-size: 1.25rem;
         --normal-font-size: 1rem;
-        --small-font-size: 0.75rem;
+        --small-font-size: 0.8rem;
     }
 }
 
@@ -121,6 +121,16 @@ body{
     -o-border-radius: 45px;
 }
 
+/* Remplissage */
+
+.fill-w{
+    width: 100%;
+}
+
+.fill-h{
+    height: 100%;
+}
+
 .no-scroll{
     overflow: hidden;
 }
@@ -128,8 +138,12 @@ body{
 /*============ Styles ============*/
 
 a.underlined,
+span.underlined,
 p.underlined{
+    display: inline;
     text-decoration: underline;
+    text-decoration-color: var(--secondary-color) ;
+    -moz-text-decoration-color: var(--secondary-color) ;
 }
 
 ul{
@@ -210,7 +224,7 @@ strong{
     color: var(--primary-color);
     /* width: fit-content;
     height: fit-content; */
-    padding: 40px 30px 40px 30px;
+    padding: 1.5rem;
 }
 
 .card.effect:hover{
@@ -232,6 +246,7 @@ button{
     gap: 0.5rem;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    line-height: 1.2;
     color: var(--text-color);
     border: none;
     background-size: 300% 100%;
@@ -455,7 +470,7 @@ header > nav.active > a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: -4px -4px  rgb(255, 255, 255);
-    background-image: radial-gradient(circle at 40% 40%, hsl(342, 62%, 42%) 0%, hsla(342, 62%, 40%, 0.292) 40%),	radial-gradient(circle at 25% 52%, hsl(241, 75%, 45%) 0%, hsla(242, 67%, 42%, 0) 50%),	radial-gradient(circle at 65% 56%, hsl(144, 62%, 42%) 0%, hsla(143, 69%, 47%, 0.155) 60%);
+    background-image: radial-gradient(circle at 40% 40%, hsl(342, 70%, 48%) 0%, hsla(342, 80%, 45%, 0.292) 40%),	radial-gradient(circle at 25% 52%, hsl(241, 83%, 49%) 0%, hsla(242, 67%, 42%, 0.173) 50%),	radial-gradient(circle at 65% 56%, hsl(144, 67%, 51%) 0%, hsl(143, 69%, 47%) 60%);
     transition: 0.3s text-shadow;
     -webkit-transition: 0.3s text-shadow;
     -moz-transition: 0.3s text-shadow;
