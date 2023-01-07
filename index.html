@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/about.css">
@@ -13,9 +13,12 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script defer src="./assets/scripts/main.js"></script>
     <script defer src="./assets/scripts/background.js"></script>
-    <title>Portfolio</title>
+    <meta property="og:title" content="Elliot Casna - Portfolio">
+    <meta property="og:description" content="Bienvenue sur mon portfolio ! Découvrez mon histoire ainsi que les différents projets que j'ai mené !">
+    <meta property="og:image" content="https://elliot-casna.fr/images/preview.png">
+    <meta property="og:url" content="https://elliot-casna.fr">
+    <title>Elliot Casna - Portfolio</title>
 </head>
-
 <body>
     <div id="scene"></div>
     <div class="circle" id="cursor"></div>
@@ -50,6 +53,7 @@
             </main>
         </div>
     </section>
+    <!-- Section à propos de moi -->
     <section id="about" class="flex column">
         <h2 class="reveal bgg">A propos de <span class="underlined">moi</span></h2>
         <article class="flex column">
@@ -81,6 +85,7 @@
             <iconify-icon icon="material-symbols:sim-card-download-rounded"></iconify-icon>
             Télécharger mon CV
         </button>
+        <!-- Mes passions -->
         <h2 class="reveal bgg" style="margin: 2rem 0 1.5rem 0;">Mes passions</h2>
         <article class="flex row center wrap">
             <aside class="card flex column circle reveal effect">
@@ -97,8 +102,8 @@
                 <div class="fill-h content flex column">
                     <h3>L'illusionisme</h3>
                     <p>Depuis tout petit, je suis passionné par les tours de magie et j'adore surprendre mes amis avec
-                        de nouvelles illusions. J'ai même participé à quelques spectacles de magie dans ma ville et
-                        j'adore partager ma passion avec les gens.</p>
+                        de nouvelles illusions. Apprendre des tours demande parfois beaucoup de dextérités mais aussi
+                        de patience</p>
                 </div>
             </aside>
             <aside class="card flex column circle reveal effect">
@@ -117,8 +122,7 @@
                     <h3>La Domotique / IOT</h3>
                     <p>Je trouve fascinant de pouvoir contrôler et automatiser des appareils à distance grâce à
                         l'Internet des objets. J'adore expérimenter de nouvelles technologies et j'ai même créé quelques
-                        projets de domotique chez moi, comme une lampe qui s'allume automatiquement lorsque je rentre
-                        chez moi.
+                        projets de domotique chez moi, comme unéclairage qui s'allume automatiquement au couché du soleil.
                     </p>
                 </div>
             </aside>
@@ -140,9 +144,9 @@
                         nouvelle perspective et de partager mes découvertes avec les autres.</p>
                 </div>
             </aside>
-
         </article>
     </section>
+    <!-- Section projets -->
     <section id="projects" class="flex column hero">
         <h2 class="reveal">Mes projets</h2>
         <div class="flex wrap">
@@ -151,7 +155,9 @@
             </div>
         </div>
     </section>
-    <section></section>
+    <!-- Section compétences -->
+    <section id="skills"></section>
+    <!-- Section contact -->
+    <section class="contacts"></section>
 </body>
-
 </html>
