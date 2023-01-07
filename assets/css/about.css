@@ -12,7 +12,6 @@
 
         #about article .card{
             width: 350px;
-            min-width: 300px;
             height: 400px;
             align-items: center;
             gap: 1rem;
@@ -30,3 +29,10 @@
             color: var(--text-color);
             font-size: 0.75rem
         }
+
+@media (max-width: 1250px) {
+    #about article .card{
+        width: 280px;
+        height: 330px;
+    }
+}
