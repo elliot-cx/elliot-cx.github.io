@@ -1,0 +1,15 @@
+#home > main {
+    margin-top: -3rem;
+    padding: 3rem;
+}
+
+    #home > main > p {
+        font-size: var(--bigger-font-size);
+        /* font-weight:  var(--font-medium); */
+    }
+
+@media (max-width: 1250px) {
+    #home > main {
+        margin-top: -6rem;
+    }
+}

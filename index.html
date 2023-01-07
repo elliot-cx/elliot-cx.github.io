@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script defer src="./assets/scripts/main.js"></script>
+    <script defer src="./assets/scripts/background.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="scene"></div>
+    <div class="circle" id="cursor"></div>
+    <!-- Section accueil -->
+    <section id="home">
+        <header>
+            <nav class="flex row center between blured-b">
+                <a href="">Elliot Casna</a>
+                <ul class="flex row">
+                    <li>
+                        <a href="#home">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#about">Présentation</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projets</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="flex center hero">
+            <main class="flex column center blured-b">
+                <h1>Elliot Casna</h1>
+                <p>Etudiant en informatique</p>
+            </main>
+        </div>
+    </section>
+    <section id="about" class="flex column">
+        <h2 class="reveal bgg">A propos de moi</h2>
+        <article class="flex column">
+            <p class="reveal">
+                Depuis mon plus jeune âge, j'ai toujours été passionné par l'informatique et j'ai commencé à coder sur
+                le bloc-notes.
+            </p>
+            <p class="reveal">
+                Déterminé à poursuivre une carrière dans ce domaine, j'ai continué à apprendre en autodidacte et j'ai
+                entrepris de nombreux <strong>projets personnels</strong> qui m'ont permis d'acquérir une solide base
+                en programmation.
+            </p>
+            <p class="reveal">
+                Au fil des années, j'ai élargi <strong>mes compétences</strong> et j'ai appris à travailler avec de
+                nombreux langages de programmation et outils informatiques.
+            </p>
+            <p class="reveal">
+                J'ai également acquis de solides <strong>connaissances</strong> et <strong>compétences</strong> grâce à
+                mon expérience et mon apprentissage continu.
+            </p>
+            <p class="reveal">
+                Aujourd'hui, je suis capable de m'<strong>adapter</strong> à de nombreuses situations et de relever de
+                nouveaux défis
+                grâce à mon savoir-faire et ma passion pour la technologie. Je suis toujours à la recherche de nouvelles
+                opportunités pour apprendre et me développer davantage.
+            </p>
+        </article>
+        <button class="reveal circle">
+            <iconify-icon icon="material-symbols:sim-card-download-rounded"></iconify-icon>
+            Télécharger mon CV
+        </button>
+        <h2 class="reveal bgg">Mes passions</h2>
+        <article class="flex row center wrap">
+            <aside class="card flex column circle reveal effect">
+                <div><iconify-icon icon="icon-park-outline:code-computer"></iconify-icon></div>
+                <div>
+                    <h3>L'informatique</h3>
+                    <p>Le monde de l'informatique me passione et j'aime découvrir ce dernier par le biais de nouvelles
+                        technologies</p>
+                </div>
+            </aside>
+            <aside class="card flex column circle reveal effect">
+                <div><iconify-icon icon="fluent-emoji-high-contrast:joker"></iconify-icon></div>
+                <div>
+                    <h3>L'illusionisme</h3>
+                    <p>Cela demande beaucoup de dextérité et j'aime impressionner mon entourage</p>
+                </div>
+            </aside>
+            <aside class="card flex column circle reveal effect">
+                <div><iconify-icon icon="clarity:design-line"></iconify-icon></div>
+                <div>
+                    <h3>L'UX/UI Design</h3>
+                    <p>Le design des interfaces est un sujet très complèxe qui demande beaucoup d'expérience, </p>
+                </div>
+            </aside>
+            <aside class="card flex column circle reveal effect">
+                <div><iconify-icon icon="carbon:iot-platform"></iconify-icon></div>
+                <div>
+                    <h3>La Domotique / IOT</h3>
+                    <p>Les objets connectés et le monde de la domotique est une de mes grandes passions.
+                        L'implémentation d'un système intelligent dans une habitation et en général dans la vie courante
+                        est un sujet
+                    </p>
+                </div>
+            </aside>
+            <aside class="card flex column circle reveal effect">
+                <div><iconify-icon icon="carbon:chip"></iconify-icon></div>
+                <div>
+                    <h3>L'electronique</h3>
+                    <p>En complément des objets connecté, je m'interrese également à l'électronique. En effet, j'aime
+                        réaliser des petits projets</p>
+                </div>
+            </aside>
+        </article>
+    </section>
+    <section id="projects" class="flex column hero">
+        <h2 class="reveal">Mes projets</h2>
+        <div class="flex wrap">
+            <div class="card">
+                <h3>Playrooms</h3>
+            </div>
+        </div>
+    </section>
+    <section></section>
+</body>
+
+</html>
