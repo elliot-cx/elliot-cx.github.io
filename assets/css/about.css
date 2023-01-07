@@ -27,7 +27,7 @@
 
         #about article .card p{
             color: var(--text-color);
-            font-size: var(--small-font-size);
+            font-size: var(--normal-font-size);
         }
 
 @media (max-width: 1250px) {
