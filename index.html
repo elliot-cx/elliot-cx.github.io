@@ -7,12 +7,13 @@
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/home.css">
-    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/about.css">   
     <link rel="stylesheet" href="./assets/css/projects.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script defer src="./assets/scripts/main.js"></script>
     <script defer src="./assets/scripts/background.js"></script>
+    <script defer src="./assets/scripts/scrollManager.js"></script>
     <meta property="og:title" content="Elliot Casna - Portfolio">
     <meta property="og:description" content="Bienvenue sur mon portfolio ! Découvrez mon histoire ainsi que les différents projets que j'ai mené !">
     <meta property="og:image" content="https://elliot-casna.fr/assets/images/preview.png">
@@ -32,24 +33,14 @@
     <!-- Section accueil -->
     <section id="home">
         <header>
-            <nav class="flex row center between blured-b">
+            <nav class="flex row center between">
                 <a href="">Elliot Casna</a>
                 <ul class="flex row">
-                    <li>
-                        <a href="#home">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="#about">Présentation</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projets</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Compétences</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contacts</a>
-                    </li>
+                    <li data-id="home" class="circle"><a href="#home">Accueil</a></li>
+                    <li data-id="about" class="circle"><a href="#about">Présentation</a></li>
+                    <li data-id="projects" class="circle"><a href="#projects">Projets</a></li>
+                    <li data-id="skills" class="circle"><a href="#skills">Compétences</a></li>
+                    <li data-id="contact" class="circle"><a href="#contact">Contacts</a></li>
                 </ul>
             </nav>
         </header>
@@ -63,6 +54,7 @@
     <!-- Section à propos de moi -->
     <section id="about" class="flex column">
         <h2 class="reveal bgg">A propos de <span class="underlined">moi</span></h2>
+        <!-- Contenue -->
         <article class="flex column">
             <p class="reveal">
                 Depuis mon plus jeune âge, j'ai toujours été passionné par l'informatique et j'ai commencé à coder sur
@@ -105,15 +97,6 @@
                 </div>
             </aside>
             <aside class="card flex column circle reveal effect">
-                <div><iconify-icon icon="fluent-emoji-high-contrast:joker"></iconify-icon></div>
-                <div class="fill-h content flex column">
-                    <h3>L'illusionisme</h3>
-                    <p>Depuis tout petit, je suis passionné par les tours de magie et j'adore surprendre mes amis avec
-                        de nouvelles illusions. Apprendre des tours demande parfois beaucoup de dextérités mais aussi
-                        de patience</p>
-                </div>
-            </aside>
-            <aside class="card flex column circle reveal effect">
                 <div><iconify-icon icon="clarity:design-line"></iconify-icon></div>
                 <div class="fill-h content flex column">
                     <h3>L'UX/UI Design</h3>
@@ -151,6 +134,15 @@
                         nouvelle perspective et de partager mes découvertes avec les autres.</p>
                 </div>
             </aside>
+            <aside class="card flex column circle reveal effect">
+                <div><iconify-icon icon="fluent-emoji-high-contrast:joker"></iconify-icon></div>
+                <div class="fill-h content flex column">
+                    <h3>L'illusionisme</h3>
+                    <p>Depuis tout petit, je suis passionné par les tours de magie et j'adore surprendre mes amis avec
+                        de nouvelles illusions. Apprendre des tours demande parfois beaucoup de dextérités mais aussi
+                        de patience</p>
+                </div>
+            </aside>
         </article>
     </section>
     <!-- Section projets -->
@@ -159,6 +151,15 @@
         <div class="flex wrap">
             <div class="card">
                 <h3>Playrooms</h3>
+            </div>
+            <div class="card">
+                <h3>Crouskie</h3>
+            </div>
+            <div class="card">
+                <h3>Pure Scans</h3>
+            </div>
+            <div class="card">
+                <h3>Grama GRAPH</h3>
             </div>
         </div>
     </section>
