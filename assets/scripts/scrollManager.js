@@ -1,5 +1,5 @@
 // Set scroll at 0 when reload
-// window.scrollTo(0, 0);
+window.scrollTo(0, 0);
 
 const nav = document.querySelector('header nav');
 const menu = nav.querySelectorAll('li');
