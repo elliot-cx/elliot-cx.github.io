@@ -482,7 +482,6 @@ header > nav {
 header > nav.active{
     z-index: 1;
     position: fixed;
-    backdrop-filter: var(--blur);
     animation: opacityFadeIn 1s, slideInFromTop 0.5s;
     -webkit-animation: opacityFadeIn 1s, slideInFromTop 0.5s;
 }
