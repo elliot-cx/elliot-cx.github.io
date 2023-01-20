@@ -1,7 +1,7 @@
 const scene = document.getElementById('scene');
 const home = document.querySelector('#home > div');
 
-const isMobile = navigator.userAgentData.mobile;
+const isMobile = screen.width < 500;
 
 const loading_animation = anime.timeline({
     easing: 'easeOutExpo',
