@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/projects.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <meta property="og:title" content="Elliot Casna - Portfolio">
@@ -119,7 +120,7 @@
             <aside class="card flex column circle reveal effect">
                 <div><iconify-icon icon="carbon:chip"></iconify-icon></div>
                 <div class="fill-h content flex column">
-                    <h3>L'electronique</h3>
+                    <h3>L'électronique</h3>
                     <p>Depuis que je suis petit, j'adore bricoler et construire des choses avec mes mains.
                         L'électronique est un domaine qui m'a toujours fasciné et j'adore apprendre de nouvelles
                         techniques et travailler sur des projets qui m'obligent à sortir de ma zone de confort.</p>
@@ -147,26 +148,59 @@
     </section>
     <!-- Section projets -->
     <section id="projects" class="flex column hero">
-        <h2 class="reveal">Mes projets</h2>
-        <div class="flex wrap">
-            <div class="card">
-                <h3>Playrooms</h3>
+        <h2 class="reveal bgg" >Mes projets</h2>
+        <article>
+            <p>Au fur et à mesure du temps j'ai développer des projets personnels mais également des projets scolaires
+                qui m'ont permis d'apprendre d'avantages</p>
+        </article>
+        <div class="reveal flex wrap cards-wrapper">
+            <div class="project-card">
+                <img src="./assets/images/playrooms.png" alt="">
+                <div class="description">
+                    <h3>Playrooms</h3>
+                    <p>Un jeu multijoueur en ligne qui se joue en équipe !</p>
+                </div>
             </div>
-            <div class="card">
-                <h3>Crouskie</h3>
+            <div class="project-card">
+                <img src="./assets/images/crouskie.png" alt="">
+                <div class="description">
+                    <h3>Crouskie</h3>
+                    <p>Un site web d'une marque de vêtements</p>
+                </div>
             </div>
-            <div class="card">
-                <h3>Pure Scans</h3>
-            </div>
-            <div class="card">
-                <h3>Grama GRAPH</h3>
+            <div class="project-card">
+                <img src="https://images.pexels.com/photos/3442567/pexels-photo-3442567.jpeg" alt="">
+                <div class="description">
+                    <h3>Pure Scans</h3>
+                    <p>Une application mobile pour lire des Web Comics</p>
+                </div>
             </div>
         </div>
     </section>
     <!-- Section compétences -->
-    <section id="skills"></section>
+    <section id="skills" class="flex column hero">
+        <h2 class="reveal bgg" style="margin: 2rem 0 1.5rem 0;">Mes compétences</h2>
+
+        <div class="flex wrap cards-wrapper">
+            <div class="card">Réaliser</div>
+            <div class="card">Optimiser</div>
+            <div class="card">Administer</div>
+            <div class="card">Gérer</div>
+            <div class="card">Conduire</div>
+            <div class="card">Collaborer</div>
+        </div>
+    </section>
     <!-- Section contact -->
-    <section class="contacts"></section>
+    <section class="contacts">
+        <div>
+            <h2>Me contacter</h2>
+            <div>
+                <a href="https://github.com/elliot-cx/" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://www.linkedin.com/in/elliot-casna/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:elliot.casna@gmail.com">Mail</a>
+            </div>
+        </div>
+    </section>
 </body>
 <script defer src="./assets/scripts/main.js"></script>
 <script defer src="./assets/scripts/background.js"></script>

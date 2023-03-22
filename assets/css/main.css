@@ -240,6 +240,11 @@ strong{
     box-shadow: 0px 0px 15px 0px var(--primary-color);
 }
 
+.cards-wrapper{
+    gap: 1rem;
+    justify-content: center;
+}
+
 /* TODO les propriétés hover et focus du bouton et du input */
 
 /* Les liens de navigations */
@@ -303,7 +308,7 @@ iconify-icon{
 /* Hero */
 
 .hero{
-    height: 85vh;
+    min-height: 85vh;
     color: var(--text-color);
 }
 

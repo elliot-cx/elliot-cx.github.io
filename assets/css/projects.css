@@ -1,3 +1,61 @@
 #projects{
+    padding: 15vh 10% 0 10%;
     align-items: center;
+    gap: 3vh;
+}
+
+.project-card{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+}
+
+.project-card > img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.project-card > .description{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    background-color: var(--container-color);
+    height: 45%;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transform: translateY(101%);
+    -webkit-transform: translateY(101%);
+    -moz-transform: translateY(101%);
+    -ms-transform: translateY(101%);
+    -o-transform: translateY(101%);
+    bottom: 0;
+    position: absolute;
+    border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+    padding: 0.2rem 1rem;
+}
+
+
+.project-card:hover > .description{
+    transform: translateY(0%);  
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+   
+.project-card:hover > img {
+    height: 55%;
 }
