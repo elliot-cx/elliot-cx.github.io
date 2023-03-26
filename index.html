@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/projects.css">
     <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <meta property="og:title" content="Elliot Casna - Portfolio">
@@ -42,7 +43,7 @@
                     <li data-id="about" class="circle"><a href="#about">Présentation</a></li>
                     <li data-id="projects" class="circle"><a href="#projects">Projets</a></li>
                     <li data-id="skills" class="circle"><a href="#skills">Compétences</a></li>
-                    <li data-id="contact" class="circle"><a href="#contact">Contacts</a></li>
+                    <li data-id="contacts" class="circle"><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </header>
@@ -148,57 +149,95 @@
     </section>
     <!-- Section projets -->
     <section id="projects" class="flex column hero">
-        <h2 class="reveal bgg" >Mes projets</h2>
-        <article>
-            <p>Au fur et à mesure du temps j'ai développer des projets personnels mais également des projets scolaires
-                qui m'ont permis d'apprendre d'avantages</p>
+        <h2 class="reveal bgg">Mes projets</h2>
+        <article class="reveal">
+            <p>Au fur et à mesure du temps, j'ai eu l'occasion de développer des projets personnels mais également des
+                projets scolaires qui m'ont permis d'apprendre d'avantages et de me perfectionner sur les différents
+                languages</p>
         </article>
         <div class="reveal flex wrap cards-wrapper">
-            <div class="project-card">
-                <img src="./assets/images/playrooms.png" alt="">
-                <div class="description">
-                    <h3>Playrooms</h3>
-                    <p>Un jeu multijoueur en ligne qui se joue en équipe !</p>
+            <a href="https://github.com/elliot-cx/Playrooms" target="_blank">
+                <div class="project-card">
+                    <img src="./assets/images/playrooms.png" alt="">
+                    <div class="description">
+                        <h3>Playrooms</h3>
+                        <p>Un jeu multijoueur en ligne qui se joue en équipe !</p>
+                    </div>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="./assets/images/crouskie.png" alt="">
-                <div class="description">
-                    <h3>Crouskie</h3>
-                    <p>Un site web d'une marque de vêtements</p>
+            </a>
+            <a href="https://github.com/elliot-cx/Crouskie" target="_blank">
+                <div class="project-card">
+                    <img src="./assets/images/crouskie.png" alt="">
+                    <div class="description">
+                        <h3>Crouskie</h3>
+                        <p>Un site web d'une marque de vêtements</p>
+                    </div>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="https://images.pexels.com/photos/3442567/pexels-photo-3442567.jpeg" alt="">
-                <div class="description">
-                    <h3>Pure Scans</h3>
-                    <p>Une application mobile pour lire des Web Comics</p>
+            </a>
+            <a href="" target="_blank">
+                <div class="project-card">
+                    <img src="https://images.pexels.com/photos/3442567/pexels-photo-3442567.jpeg" alt="">
+                    <div class="description">
+                        <h3>Weather Mate</h3>
+                        <p>Une application mobile pour la météo</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </section>
     <!-- Section compétences -->
     <section id="skills" class="flex column hero">
-        <h2 class="reveal bgg" style="margin: 2rem 0 1.5rem 0;">Mes compétences</h2>
-
+        <h2 class="reveal bgg">Mes compétences</h2>
         <div class="flex wrap cards-wrapper">
-            <div class="card">Réaliser</div>
-            <div class="card">Optimiser</div>
-            <div class="card">Administer</div>
-            <div class="card">Gérer</div>
-            <div class="card">Conduire</div>
-            <div class="card">Collaborer</div>
+            <div class="card">
+                <h3>Réaliser</h3>
+                <p>Développer : c'est créer, concevoir, coder, tester et intégrer une solution informatique pour un
+                    client.</p>
+            </div>
+            <div class="card">
+                <h3>Optimiser</h3>
+                <p>Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps
+                    d'exécution, précision, consommation de ressources..</p>
+            </div>
+            <div class="card">
+                <h3>Administer</h3>
+                <p>Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des
+                    infrastructures, des services et des réseaux et optimiser les systèmes informatiques d'une
+                    organisation.</p>
+            </div>
+            <div class="card">
+                <h3>Gérer</h3>
+                <p>Concevoir, gérer, administrer et exploiter les données de l'entreprise et mettre à disposition toutes
+                    les informations pour un bon pilotage de l'entreprise.</p>
+            </div>
+            <div class="card">
+                <h3>Conduire</h3>
+                <p>Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et
+                    piloter un projet informatique avec des méthodes classiques ou agiles.</p>
+            </div>
+            <div class="card">
+                <h3>Collaborer</h3>
+                <p>Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une
+                    équipe informatique.</p>
+            </div>
         </div>
     </section>
     <!-- Section contact -->
-    <section class="contacts">
-        <div>
-            <h2>Me contacter</h2>
-            <div>
-                <a href="https://github.com/elliot-cx/" target="_blank" rel="noopener noreferrer">Github</a>
-                <a href="https://www.linkedin.com/in/elliot-casna/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="mailto:elliot.casna@gmail.com">Mail</a>
-            </div>
+    <section id="contacts" class="flex column">
+        <h2 class="reveal bgg">Me contacter</h2>
+        <div class="contacts flex row center reveal wrap">
+            <a id="github" class="contact-card flex center" href="https://github.com/elliot-cx/" target="_blank" rel="noopener noreferrer">
+                <iconify-icon icon="mdi:github" style="color: white;"></iconify-icon>
+                <iconify-icon icon="octicon:logo-github-16" style="color: white;"></iconify-icon>
+            </a>
+            <a id="linkedin" class="contact-card flex center" href="https://www.linkedin.com/in/elliot-casna/" target="_blank" rel="noopener noreferrer">
+                <iconify-icon icon="logos:linkedin"></iconify-icon>
+            </a>
+            <a id="gmail" class="contact-card flex center" href="mailto:elliot.casna@gmail.com">
+                <iconify-icon icon="logos:google-gmail"></iconify-icon>
+                <!--<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Gmail2020.logo.png" alt="Gmail">-->
+                <span>Gmail</span>
+            </a>
         </div>
     </section>
 </body>

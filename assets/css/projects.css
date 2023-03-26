@@ -59,3 +59,8 @@
 .project-card:hover > img {
     height: 55%;
 }
+
+
+#projects > article{
+    margin: 2rem;
+}
