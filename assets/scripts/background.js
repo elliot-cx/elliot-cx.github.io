@@ -5,9 +5,9 @@ const isMobile = screen.width < 500;
 
 const loading_animation = anime.timeline({
     easing: 'easeOutExpo',
-    complete: () => {
-        if (!isMobile) { cursor.classList.add('active') };
-    }
+    // complete: () => {
+    //     if (!isMobile) { cursor.classList.add('active') };
+    // }
 });
 
 loading_animation.add({
